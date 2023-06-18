@@ -30,8 +30,8 @@
 
 :root {
   /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
-  --disable-animations: 2s channel-unread infinite;
-
+  /* --disable-animations: 2s channel-unread infinite; */
+  
   /* ═══════『 ⚙️ / 🎤 / 🎧 ・ User button 』═══════
 *
 *   ➥ A higher value means more space between the icons and a lower ...
@@ -44,7 +44,7 @@
   --user-buttons-spacing: 8px;
 
   /* Color - Default value : #096DC0 */
-  --user-buttons-color: #096dc0;
+  --user-buttons-color: #9fa4a9;
 
   /* ═══════『 ⭕ Roundness settings 』═══════
 *
@@ -57,7 +57,7 @@
   --avatar-radius: 5px;
 
   /* Status - Default value : 3px */
-  --status-radius: 3px;
+  --status-radius: 25px;
 
   /* Servers - Default value : 8px */
   --server-radius: 8px;
@@ -70,26 +70,26 @@
   /* ═══════『 📜 Server/channel list 』═══════ */
 
   /* Mention - Default value : #F04747 */
-  --mention-color: #f04747;
+  --mention-color: #bd7800;
 
   /* Unread - Default value : #7289DA */
-  --unread-color: #7289da;
+  --unread-color: #8b949e;
 
   /*  『 🔴 Mention colors in chat 』 */
 
   /* Bar on the right - Default value : #C66262 */
-  --mention-color-bar: #c66262;
+  --mention-color-bar: #bd7800;
 
   /* Background - Default value : #C662621F */
-  --mention-color-background: #c662621f;
+  --mention-color-background: #bd78001F;
 
   /* On hover - Default value : #C6626226 */
-  --mention-color-hover: #c6626226;
+  --mention-color-hover: #bd780026;
 
   /* ═══════『 💬 Chat buttons 』═══════ */
 
   /* Default value : #7289DA */
-  --chat-buttons: #7289da;
+  --chat-buttons: #8b949e;
 
   /* ═══════『 💬 SpotifyControls seek bar 』═══════
 *   ℹ️ : If you don't have the plugin : https://betterdiscord.app/plugin/SpotifyControls */
@@ -117,7 +117,7 @@
   /* ═══════『 🔰 User popout 』═══════ */
 
   /* Playing wave color */
-  --playing: #7289da;
+  --playing: #02124f;
 
   /* Listening wave color */
   --listening: #1db653;
@@ -129,9 +129,52 @@
 *   Set it to "block" if you still want it */
 
   --discord-logo: none;
+  
+  --brand-experiment: #2586be;
 }
 
 .theme-dark {
+  --background-primary: #111111;
+  --background-secondary: #111111;
+  --background-secondary-alt: #111111;
+  --background-tertiary: #111111;
+  --background-accent: #0f5a90;
+
+  --modal-background: #23283d;
+  --background-mobile-primary: #23283d;
+  --background-mobile-secondary: #1e2233;
+  --channeltextarea-background: #111111;
+  --background-accent: #8b949e;
+  --background-message-hover: transparent;
+  --background-modifier-hover: #1c4faf;
+  --background-modifier-active: #0000001a;
+  --background-modifier-selected: #0000001f;
+  --deprecated-card-bg: #12141f63;
+  --background-floating: #090909;
+  --deprecated-quickswitcher-input-background: #090909;
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #121722;
+  --scrollbar-auto-track: #191f2e;
+  --scrollbar-thin-thumb: #141925;
+  --activity-card-background: #111111;
+  --input-background: #111111;
+}
+
+.theme-light {
+  /* --background-primary: #23283d;
+  --background-secondary: #1e2233;
+  --background-secondary-alt: #8b949e;
+  --background-tertiary: #090909;
+  --background-accent: #8b949e;
+  --background-modifier-hover: #262b41;
+  --background-modifier-active: #262b41;
+  --header-primary: #fff;
+  --header-secondary: #b1b5b9;
+  --text-normal: #8e9297; */
+  --background-primary: #111111;
+  --background-secondary: #111111;
+  --background-secondary-alt: #111111;
+  --background-tertiary: #111111;
   --background-primary: #23283d;
   --background-secondary: #1e2233;
   --background-secondary-alt: #191f2e;
@@ -141,31 +184,19 @@
   --modal-background: #23283d;
   --background-mobile-primary: #23283d;
   --background-mobile-secondary: #1e2233;
-  --channeltextarea-background: #191f2e;
+  --channeltextarea-background: #111111;
+  --background-accent: #8b949e;
   --background-message-hover: transparent;
-  --background-modifier-hover: #00000010;
+  --background-modifier-hover: #1c4faf;
   --background-modifier-active: #0000001a;
   --background-modifier-selected: #0000001f;
   --deprecated-card-bg: #12141f63;
-  --background-floating: #101320;
-  --deprecated-quickswitcher-input-background: #101320;
+  --background-floating: #090909;
+  --deprecated-quickswitcher-input-background: #090909;
   --elevation-low: none;
   --scrollbar-auto-thumb: #121722;
   --scrollbar-auto-track: #191f2e;
   --scrollbar-thin-thumb: #141925;
-  --activity-card-background: #101320;
-  --input-background: #1e2233;
-}
-
-.theme-light {
-  --background-primary: #23283d;
-  --background-secondary: #1e2233;
-  --background-secondary-alt: #191f2e;
-  --background-tertiary: #101320;
-  --background-accent: #7289da;
-  --background-modifier-hover: #262b41;
-  --background-modifier-active: #262b41;
-  --header-primary: #fff;
-  --header-secondary: #b1b5b9;
-  --text-normal: #8e9297;
+  --activity-card-background: #111111;
+  --input-background: #111111;
 }
